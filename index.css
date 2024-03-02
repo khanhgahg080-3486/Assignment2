@@ -1,0 +1,129 @@
+/* Font Family for Every Part  */
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Shared styles  */
+
+
+*{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* Nav Stylen Start */
+.nav-titel-img{
+    display: flex;
+}
+nav>ul{
+    display: flex;
+    margin-right: 290px;
+    
+}
+nav li a{
+    
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.nav-home{
+    color: rgb(255, 84, 0);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 390px;
+    margin-right: 50px;
+    margin-top: 60px;
+    align-items: center;
+    
+ 
+}
+.nav-image{
+    margin-right: 50px;
+    width: 48px;
+    height: 56px;
+    left: 191.01px;
+    right: 34.63px;
+
+}
+.nav-title{
+    width: 201px;
+    height: 45px;
+    left: 207.63px;
+    right: -207.63px;
+    top: 52px;
+    bottom: -52px;
+ color: rgb(19, 19, 24);
+ 
+}
+.nav-title-red{
+    color:rgb(255, 84, 0) ;
+}
+
+/* Nav Style End */
+
+/* Main styel start */
+/* Section For Banner one Style Start  */
+.baner-one{
+    margin-top: -40px;
+    text-align: center;
+    background-image: url(./B9A2-Hero-Travel-main/./Images/Rectangle\ 2.png),url(./B9A2-Hero-Travel-main/./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+  margin-left: 390px;
+  border-radius: 16px;
+}
+.baner-one-title{
+    padding-top: 106px;
+    font-size: 64px;
+font-weight: 800;
+color: rgb(255, 255, 255);
+}
+.baner-one-discription{
+    font-size: 16px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+}
+input, select{
+    width: 150px;
+padding: 16px;
+border-radius: 8px;
+}
+
+/* Responsive Media Queries */
+/* Mobile devices  */
+@media only screen and (max-width :600px){
+.baner-one{
+width: 335px;
+height: 483px;
+margin-left: 30px;
+margin-right: 10px;
+}
+.baner-one-title{
+font-size: 22px;
+}
+.baner-one-discription{
+    font-size: 14px;
+}
+input,select{
+  width: 255px;
+}
+nav li a{
+    display: none;
+}
+nav{
+    margin-top: -5px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+}
