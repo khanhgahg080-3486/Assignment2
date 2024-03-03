@@ -343,6 +343,79 @@ font-weight: 800;
 color: rgb(19, 19, 24);
 }
 
+
+/* Part Five Style  Start*/
+.section-five-part-one{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.section-five-comon-div{
+    border: 2px solid powderblue;
+    border-radius: 16px;
+    width: 579px;
+height: 389px;
+padding-left: 50px;
+backdrop-filter: blur(5px);
+background-color: antiquewhite;
+}
+.section-five-baner-one{
+    background-image: url(./B9A2-Hero-Travel-main/./Images/./Group\ 39.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 500px;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+.section-five-baner-two{
+    background-image: url(./B9A2-Hero-Travel-main/./Images/./Group\ 40.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+.section-five-comon-h3{
+    font-size: 20px;
+font-weight: 800;
+color: rgb(255, 84, 0);
+}
+
+.butoon-section-five{
+    font-size: 20px;
+font-weight: 800;
+border-radius: 8px;
+color: white;
+background: rgb(255, 84, 0);
+width: 210px;
+height: 52px;
+margin-left: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Media Queries */
 /* Mobile devices  */
 @media only screen and (max-width :600px){
