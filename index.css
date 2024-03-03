@@ -428,16 +428,19 @@ margin-left: 30px;
 margin-right: 10px;
 }
 .baner-one-title,
+.section-four-common-title,
 .baner-two-title,
 .baner-three-title,
 .first-part-contain,
 .section-four-common-title,
-.section-four-common-disciption{
+.section-four-common-disciption,
+.section-five-part-one{
 font-size: 22px;
 }
 .banner-three-discription,
 .baner-one-discription,
-.comon-text
+.comon-text,
+.section-four-common-disciption
 {
     font-size: 14px;
 }
@@ -501,5 +504,24 @@ nav{
     margin-right: 0;
     margin-top: 20px;
 }
+.section-five-comon-div{
+    width:300px;
+height: 300px;
 
+}
+.section-five-baner-one{
+    width: 335px;
+    height: 500px;
+    margin-left:-450px;
+    margin-right: 0;
+}
+.section-five-baner-two{
+    width: 335px;
+    height: 500px;
+    margin-left:-50px;
+}
+.butoon-section-five{
+    margin-left: 70px;
+}
+   
 }
