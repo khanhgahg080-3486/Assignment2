@@ -468,7 +468,18 @@ font-weight: 800;
 margin-top: 10px;
 }
 
+/* Footer start */
 
+.foteer-all{
+    text-align: center;
+    width: 1300px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+margin-left: 390px;
+gap: 20px;
+margin-bottom: 100px;
+
+}
 
 
 
@@ -483,6 +494,7 @@ margin-top: 10px;
 @media only screen and (max-width :600px){
 
     .baner-one,
+    .foteer-all,
 .baner-two{
 width: 335px;
 height: 483px;
