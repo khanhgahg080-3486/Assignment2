@@ -286,9 +286,63 @@ color: rgb(255, 255, 255);
 padding-left: 260px;
 padding-top: 132px;
 margin-right: 200px;
-
-
 }
+
+
+/* Section four part style start */
+.first-part-contain{
+    margin-top: -100px;
+    text-align: center;
+}
+.secound-part-contain{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right:300px;
+    margin-left:400px;
+}
+.third-part-contain{
+    margin-top: 100px;
+  margin-left: 700px;
+  margin-right: 600px;
+  box-sizing: border-box;
+border: 1px solid rgba(233, 68, 68, 0.2);
+border-radius: 16px;
+
+background: rgba(233, 68, 68, 0.05);
+}
+
+.secound-part-left-part{
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    
+    background: rgba(251, 181, 99, 0.05);
+}
+.secound-part-right-part{
+    box-sizing: border-box;
+border: 1px solid rgba(41, 206, 246, 0.2);
+border-radius: 16px;
+
+background: rgba(41, 206, 246, 0.05);
+}
+
+.first-part-contain-title{
+    font-size: 40px;
+font-weight: 800;
+color: rgb(19, 19, 24);
+}
+
+.section-four-common-disciption{
+    font-size: 16px;
+font-weight: 400;
+}
+.section-four-common-title{
+    font-size: 24px;
+font-weight: 800;
+color: rgb(19, 19, 24);
+}
+
 /* Responsive Media Queries */
 /* Mobile devices  */
 @media only screen and (max-width :600px){
@@ -302,7 +356,10 @@ margin-right: 10px;
 }
 .baner-one-title,
 .baner-two-title,
-.baner-three-title{
+.baner-three-title,
+.first-part-contain,
+.section-four-common-title,
+.section-four-common-disciption{
 font-size: 22px;
 }
 .banner-three-discription,
@@ -325,7 +382,8 @@ nav{
 .baner-two,
 .baner-there-first-row-img,
 .banner-three-img-second-coloum,
-.banner-three-img-thrid-coloum
+.banner-three-img-thrid-coloum,
+.secound-part-contain
 {
     flex-direction: column;
 }
@@ -340,7 +398,7 @@ nav{
     }
     .maldivas,.srilanka,.bangladesh{
         margin-left: 20px;
-        margin-right: 100px;
+   
         margin-bottom: -120px;
 }
 .bandarban,.indonesia,.kashmir,.north-america{
@@ -349,6 +407,26 @@ nav{
 .north-america{
     margin-bottom: -120px;
 }
-background-size: .bangladesh display: .bandarban;;
+.bandarban,.maldivas,.bangladesh,.north-america,.indonesia{
+    width: 374px;
+    height: 286px;
+    padding-left:0px;
+    border-radius: 20px;
+
+}
+.kashmir{
+    width: 374px;
+    height: 286px;
+    padding-right: 100px;
+}
+.secound-part-contain{
+    gap: 20px;
+}
+.secound-part-contain,
+.third-part-contain{
+    margin-left:0;
+    margin-right: 0;
+    margin-top: 20px;
+}
 
 }
